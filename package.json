@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/gyarasu/vue-axios-cors/issues"
   },
-  "homepage": "https://github.com/gyarasu/vue-axios-cors#readme"
+  "homepage": "https://github.com/gyarasu/vue-axios-cors#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "vue": "^2.6.10"
+  }
 }
