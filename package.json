@@ -13,7 +13,8 @@
     "url": "git+https://github.com/gyarasu/vue-axios-cors.git"
   },
   "keywords": [
-    "vue"
+    "vue",
+    "axios"
   ],
   "author": "gyarasu <dev.yoshitsugu@gmail.com> (https://github.com/gyarasu)",
   "license": "MIT",
