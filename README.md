@@ -32,7 +32,11 @@ export default {
     login() {
       const options = {
         url: 'https://yourdomain.com/login',
-        method: 'POST'
+        method: 'POST',
+        data: {
+          email: 'user@example.com',
+          password: 'pasw0rd'
+        }
       }
       this.$axios(options)
       .then((res) => {
