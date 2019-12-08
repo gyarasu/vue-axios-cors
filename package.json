@@ -1,0 +1,22 @@
+{
+  "name": "vue-axios-cors",
+  "version": "1.0.0",
+  "description": "This is http client vue.js plugin for cross origin access without preflight. It will convert application/json to simple request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyarasu/vue-axios-cors.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "gyarasu <dev.yoshitsugu@gmail.com> (https://github.com/gyarasu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gyarasu/vue-axios-cors/issues"
+  },
+  "homepage": "https://github.com/gyarasu/vue-axios-cors#readme"
+}
