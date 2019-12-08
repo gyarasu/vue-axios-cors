@@ -1,6 +1,16 @@
 # vue-axios-cors
 This is http client vue.js plugin for cross origin access without preflight. It will automatically convert application/json to simple request (application/x-www-form-urlencoded).
 
+## Details
+- `POST` and `PUT` method will be converted.
+- HTTP Header: 
+  - before: application/json
+  - after: application/x-www-form-urlencoded
+- What you have to do on your server:
+  - Allow CORS Access
+  - Add middleware to convert formdata to json data
+
+
 ## Installation
 ```bash
 $ yarn add vue-axios-cors
