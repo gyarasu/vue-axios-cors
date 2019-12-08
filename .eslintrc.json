@@ -21,7 +21,5 @@
     "sourceType": "module",
     "project": "./tsconfig.json"
   },
-  "rules": {
-    "@typescriipt-eslint/interface-name-prefix": ["error", { "prefixWithI": "always" }]
-  }
+  "rules": {}
 }
