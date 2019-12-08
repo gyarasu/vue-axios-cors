@@ -4,7 +4,9 @@
   "description": "This is http client vue.js plugin for cross origin access without preflight. It will convert application/json to simple request.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn lint && rm -rf ./dist && tsc",
+    "lint": "eslint --fix -c ./.eslintrc.json './**/*.ts'"
   },
   "repository": {
     "type": "git",
