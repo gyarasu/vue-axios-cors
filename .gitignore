@@ -1,6 +1,2 @@
 # node packages
 node_modules
-
-# typescript output
-dist
-

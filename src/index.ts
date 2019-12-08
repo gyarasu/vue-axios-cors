@@ -16,13 +16,8 @@ axios.interceptors.request.use(config => {
   return config;
 });
 
-// TODO: add options argument
-const install = () => (Vue: typeof _Vue): void => {
-  Vue.prototype.$axios = axios;
+export default {
+  install(Vue: typeof _Vue): void {
+    Vue.prototype.$axios = axios;
+  }
 };
-
-const AxiosCors = {
-  install
-};
-
-export default AxiosCors;
