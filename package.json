@@ -1,6 +1,6 @@
 {
   "name": "vue-axios-cors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is http client vue.js plugin for cross origin access without preflight. It will automatically convert application/json to simple request (application/x-www-form-urlencoded).",
   "main": "index.js",
   "scripts": {
